@@ -1,0 +1,56 @@
+/* fontes */
+
+@font-face {
+    font-family: 'Handodle';
+    src: url('../fonts/Handodle.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Redrum';
+    src: url('../fonts/Redrum.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CabinSketch';
+    src: url('../fonts/CabinSketch-Regular.ttf') format('truetype');
+}
+
+/* ----- header ------ */
+.header {
+    background-color: #ECA2FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+/* menu principal */
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/* links do menu */
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+/* cada item do menu - NAO SEI SE PRECISA DISSO*/
+.menu li {
+    position: relative;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #ECA2FF;
+}
+
+body {
+    background-image: url('../img/fundo.svg');
+}

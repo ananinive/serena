@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Serena Minha Rotina</title>
+
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/img/logoSerena.svg" alt="Logo Serena" class="logoSerena">
+        <nav>
+            <ul class="menu">
+                <li><a href="inicio.html">Inicio</a></li>
+                <li class="menuRotina"><a href="minharotina.html">Minha Rotina</a>
+                    <ul class="submenu">
+                        <li><a href="#calendario">Calendário</a></li>
+                        <li><a href="#tarefas">Tarefas</a></li>
+                        <li><a href="#habitos">Hábitos</a></li>
+                        <li><a href="#anotacoes">Anotações</a></li>
+                    </ul>
+                </li>
+                <li><a href="progresso.html">Progresso</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>                    
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="paginaRotina">
+        <section class="cabecalhoRotina">
+            <h2>Terça-feira, <span class="numerosRotina">13</span> de outubro de <span class="numerosRotina">2026</span></h2>
+            <h1>Bom dia, xxx<span class="exclamacaoRotina">!</span></h1>
+            <h2>O que vamos organizar hoje<span class="interrogacaoRotina">?</span></h2>
+        </section>
+        
+        <section class="calendarioRotina" id="calendario">
+            <div class="calendario">
+                <h2>Meu calendário</h2>
+                <p>
+                    Outubro de <span class="numerosRotina3">2026</span>
+                    <button class="botaoSetaEsq">&lt;</button>
+                    <button class="botaoSetaDir">&gt;</button>
+                </p>
+
+                <div class="semana">
+                    <div class="diasSemana">
+                        <span>Seg<span class="numerosRotina2">12</span></span>
+                    </div>
+                    <div class="diasSemana">
+                        <span>Ter<span class="numerosRotina2">13</span></span>
+                    </div>
+                    <div class="diasSemana">
+                        <span>Qua<span class="numerosRotina2">14</span></span>
+                    </div>
+                    <div class="diasSemana">
+                        <span>Qui<span class="numerosRotina2">15</span></span>
+                    </div>
+                    <div class="diasSemana">
+                        <span>Sex<span class="numerosRotina2">16</span></span>
+                    </div>
+                    <div class="diasSemana">
+                        <span>Sáb<span class="numerosRotina2">17</span></span>
+                    </div>
+                    <div class="diasSemana">
+                        <span>Dom<span class="numerosRotina2">18</span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secaoRotina" id="tarefas">
+            <h2>Tarefas de hoje</h2>
+
+            <div class="filtrosTarefas">
+                <a href="#tarefas">Todas</a>
+                <a href="#tarefas">Pendentes</a>
+                <a href="#tarefas">Concluídas</a>
+            </div>
+
+            <div class="listaTarefas">
+                <article class="tarefa">
+                    <input type="checkbox" id="tarefa1">
+                    <div>
+                        <label for="tarefa1">Revisar conteúdo CSS <br>
+                        08:00 · Estudos · Alta</label>
+                    </div>
+                </article>
+
+                <article class="tarefa">
+                    <input type="checkbox" id="tarefa2">
+                    <div>
+                        <label for="tarefa2">Resolver exercícios <br>
+                        10:00 · Estudos · Média</label>
+                    </div>
+                </article>
+
+                <article class="tarefa">
+                    <input type="checkbox" id="tarefa3">
+                    <div>
+                        <label for="tarefa3">Desenvolver o projeto do site <br>
+                        14:00 · Projeto · Alta</label>
+                    </div>
+                </article>
+
+                <article class="tarefa">
+                    <input type="checkbox" id="tarefa4">
+                    <div>
+                        <label for="tarefa4">Organizar o quarto <br>
+                        16:00 · Pessoal · Baixa</label>
+                        
+                    </div>
+                </article>
+            </div>
+
+            <button type="button" class="botaoAdicionarTarefa">
+               + Adicionar Tarefa
+            </button>
+        </section>
+
+        <section class="secaoRotina" id="habitos">
+            <h2>Pequenos hábitos</h2>
+
+            <div class="listaHabitos">
+                <div class="habito">
+                    <input type="checkbox" id="habito1">
+                    <label for="habito1">Beber água</label>
+                </div>
+
+                <div class="habito">
+                    <input type="checkbox" id="habito2">
+                    <label for="habito2">Ler por 30 minutos</label>
+                </div>
+
+                <div class="habito">
+                    <input type="checkbox" id="habito3">
+                    <label for="habito3">Fazer uma pausa</label>
+                </div>
+
+                <div class="habito">
+                    <input type="checkbox" id="habito4">
+                    <label for="habito4">Preparar o dia seguinte</label>
+                </div>
+            </div>
+            
+            <button type="button" class="botao">
+                + Adicionar hábito
+            </button>
+        </section>
+
+        <section class="secaoRotina" id="anotacoes">
+            <h2>Anotações</h2>
+
+            <textarea id="anotacao" name="anotacao"
+            placeholder="Escreva suas anotações..."></textarea>
+        
+            <span>
+                <br> Anote aqui o que não quer esquecer
+            </span>
+        
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footerColuna1">
+            <h2 class="nomeSerenaFooter">Serena</h2>
+            <p>O site que acompanha seu ritmo</p>
+        </div>
+
+        <div class="navegacaoFooter">
+            <h2>Navegação</h2>
+            <div>
+                <a href="inicio.html">Inicio</a>
+                <a href="minharotina.html">Minha Rotina</a>
+                <a href="progresso.html">Progresso</a>
+            </div>
+            <div>
+                <a href="contato.html">Contato</a>
+                <a href="cadastro.html">Cadastro</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+
+        <div class="contatoFooter">
+            <h2>Nosso contato</h2>
+            <p>serena<span class="arroba">@</span>gmail.com</p>
+            <p><span class="numeros">(81) 9</span>.xxxx-xxxx</p>
+        </div>
+
+        <p class="direitosAutorais">
+            <span class="numeros">2026</span> Serena <span class="arroba">@</span> Todos os direitos reservados.
+        </p>
+    </footer>
+
+</body>
+</html>

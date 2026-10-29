@@ -1,0 +1,517 @@
+/* ----- FONTES ----- */
+
+@font-face {
+    font-family: 'Handodle';
+    src: url('../fonts/Handodle.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Redrum';
+    src: url('../fonts/Redrum.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CabinSketch';
+    src: url('../fonts/CabinSketch-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ButterflyKids';
+    src: url('../fonts/ButterflyKids-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ----- banner padrao fundo ----- */
+body {
+    background-image: url('../img/fundo.svg');
+}
+
+/* ----- HEADER ------ */
+.header {
+    background-color: #ECA2FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+/* menu principal */
+.menu {
+    font-family: 'Handodle', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    padding: 10px 30px;
+}
+
+/* links do menu */
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+/* cada item do menu */
+.menu li {
+    position: relative;
+}
+
+/* submenu */
+.submenu {
+    display:none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 170px;
+    list-style: none;
+    margin: 0;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0;
+}
+
+/* mostrar o submenu quando passa o mouse */
+.menuRotina:hover
+.submenu {
+    display: block;
+}
+
+/* deixar o botao todo clicavel */
+.submenu li a {
+    display: block;
+    padding: 12px 16px;
+}
+
+/* quando passa o mouse nos botoes */
+.submenu li a:hover {
+    background-color: #E4D7FF;
+    border-radius: 10px;
+}
+
+/* ----- FOOTER ----- */
+.footer {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #ECA2FF;
+    font-family: 'Handodle', sans-serif;
+    padding: 20px;
+}
+
+.nomeSerenaFooter {
+    font-family: 'Redrum', sans-serif;
+    font-size: 70px;
+    padding-left: 50px;
+}
+
+.footerColuna1 p{
+    display: flex;
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+.navegacaoFooter h2, .contatoFooter h2 {
+    font-size: 40px;
+    padding-left: 50px;
+}
+
+.navegacaoFooter a {
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.contatoFooter p {
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.arroba {
+    font-family: 'ButterflyKids', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.numeros {
+    font-family: 'CabinSketch', sans-serif;
+    font-size: 30px;
+}
+
+.direitosAutorais {
+    font-family: 'Handodle', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/* ----- PAGINA INICIO ----- */
+.paginaInicio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nomeSerena {
+    font-family: 'Redrum', sans-serif;
+    font-size: 150px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.textoPrincipalInicio h2{
+    font-family: 'Handodle', sans-serif;
+    font-size: 60px;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+.textoPrincipalInicio p {
+    font-family: 'Handodle', sans-serif;
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: 0px;
+}
+
+.textoPrincipalInicio .nomeSerena2 {
+    font-family: 'Redrum', sans-serif;
+    font-size: 50px;
+    margin-top: -108px;
+    margin-left: 260px;
+}
+
+.postit {
+    display: flex;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.botaoCadastro {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 60px;
+    border-radius: 50px;
+    font-family: 'Handodle', sans-serif;
+    font-size: 40px;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border: 4px solid #000000;
+    box-shadow: 10px 10px #000000ce;
+}
+
+.botaoLogin {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 100px;
+    border-radius: 50px;
+    font-family: 'Handodle', sans-serif;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border: 4px solid #000000;
+    box-shadow: 10px 10px #000000ce;
+}
+
+/* ----- PAGINA CADASTRO ----- */
+
+.formularioCadastro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formularioCadastro h1{
+    font-family: 'Handodle', sans-serif;
+    font-size: 60px;
+    margin-left: 330px;
+    margin-top: 50px;
+}
+
+.campoCadastro input{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 60px;
+    border-radius: 20px;
+    font-family: 'Handodle', sans-serif;
+    font-size: 30px;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 2px solid #000000;
+    box-shadow: 10px 10px #000000ce;
+}
+
+.botaoCadastrarCadastro {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 10px 60px;
+    border-radius: 50px;
+    font-family: 'Handodle', sans-serif;
+    font-size: 40px;
+    margin-left: 350px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 4px solid #000000;
+    box-shadow: 10px 10px #000000ce;
+}
+
+.botaoCadastrarCadastro a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+.formularioCadastro p {
+    font-family: 'Handodle', sans-serif;
+    font-size: 30px;
+    margin-left: 330px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.formularioCadastro a {
+    text-decoration: none;
+    color: #000;
+}
+
+.interrogacao {
+    font-family: 'CabinSketch', sans-serif;
+    font-size: 30px;
+}
+
+/* ----- PAGINA LOGIN ----- */
+
+.formularioLogin {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formularioLogin h1{
+    font-family: 'Handodle', sans-serif;
+    font-size: 60px;
+    margin-left: 330px;
+    margin-top: 100px;
+}
+
+.campoLogin input{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 60px;
+    border-radius: 20px;
+    font-family: 'Handodle', sans-serif;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 2px solid #000000;
+    box-shadow: 10px 10px #000000ce;
+}
+
+.botaoLoginLogin {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 10px 60px;
+    border-radius: 50px;
+    font-family: 'Handodle', sans-serif;
+    font-size: 40px;
+    margin-left: 440px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 4px solid #000000;
+    box-shadow: 10px 10px #000000ce;
+}
+
+.botaoLoginLogin a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+.formularioLogin p {
+    font-family: 'Handodle', sans-serif;
+    font-size: 30px;
+    margin-left: 360px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.formularioLogin a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ----- PAGINA CONTATO ----- */
+
+.exclamacao {
+    font-family: 'CabinSketch', sans-serif;
+    font-size: 80px;
+}
+
+.interrogacao2 {
+    font-family: 'CabinSketch', sans-serif;
+    font-size: 45px;
+}
+
+.cabecalhoContato {
+    font-family: 'Handodle', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+.formularioContato {
+    background-color: #00000033;
+    border: 4px solid #000000;
+    border-radius: 20px;
+    width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    box-shadow: 15px 15px 0px #000000; /* Sombra sólida preta */
+    text-align: center;
+}
+
+.formularioContato h2{
+    font-family: 'Handodle', sans-serif;
+    font-size: 60px;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.formularioContato input, textarea {
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 60px;
+    border-radius: 20px;
+    font-family: 'Handodle', sans-serif;
+    font-size: 30px;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #000000;
+    box-shadow: 10px 10px #000000ce;
+}
+
+.botaoEnviar {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 10px 60px;
+    border-radius: 50px;
+    font-family: 'Handodle', sans-serif;
+    font-size: 40px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 4px solid #000000;
+    box-shadow: 10px 10px #000000ce;
+}
+
+/* ----- PAGINA MINHA ROTINA ----- */
+
+.numerosRotina {
+    font-family: 'CabinSketch', sans-serif;
+    font-size: 45px;
+}
+
+.exclamacaoRotina {
+    font-family: 'CabinSketch', sans-serif;
+    font-size: 80px;
+}
+
+.interrogacaoRotina {
+    font-family: 'CabinSketch', sans-serif;
+    font-size: 45px;
+}
+
+.cabecalhoRotina h2 {
+    font-family: 'Handodle', sans-serif;
+    font-size: 45px;
+    margin-left: 50px;
+}
+
+.cabecalhoRotina h1 {
+    font-family: 'Handodle', sans-serif;
+    font-size: 80px;
+    margin-left: 100px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.numerosRotina2 {
+    font-family: 'CabinSketch', sans-serif;
+    font-size: 40px;
+}
+
+.numerosRotina3 {
+    font-family: 'CabinSketch', sans-serif;
+    font-size: 30px;
+}
+
+.semana{
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendarioRotina {
+    font-family: 'Handodle', sans-serif;
+    font-size: 30px;
+    background-color: #00000033;
+    border: 4px solid #000000;
+    border-radius: 20px;
+    width: 1700px;
+    margin: 40px auto;
+    padding: 40px;
+    box-shadow: 15px 15px 0px #000000; /* Sombra sólida preta */
+}
+
+.calendarioRotina h2 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.calendarioRotina p {
+    display: relative;
+    margin-left: 10px;
+}

@@ -1,5 +1,7 @@
+<?php echo "Olá, bem-vindo ao site Serena!"; ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,19 +14,19 @@
         <img src="./assets/img/logoSerena.svg" alt="Logo Serena" class="logoSerena">
         <nav>
             <ul class="menu">
-                <li><a href="inicio.html">Inicio</a></li>
-                <li class="menuRotina"><a href="minharotina.html">Minha Rotina</a>
+                <li><a href="inicio.php">Inicio</a></li>
+                <li class="menuRotina"><a href="minharotina.php">Minha Rotina</a>
                     <ul class="submenu">
-                        <li><a href="minharotina.html#calendario">Calendário</a></li>
-                        <li><a href="minharotina.html#tarefas">Tarefas</a></li>
-                        <li><a href="minharotina.html#habitos">Hábitos</a></li>
-                        <li><a href="minharotina.html#anotacoes">Anotações</a></li>
+                        <li><a href="minharotina.php#calendario">Calendário</a></li>
+                        <li><a href="minharotina.php#tarefas">Tarefas</a></li>
+                        <li><a href="minharotina.php#habitos">Hábitos</a></li>
+                        <li><a href="minharotina.php#anotacoes">Anotações</a></li>
                     </ul>
                 </li>
-                <li><a href="progresso.html">Progresso</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>                    
-                <li><a href="login.html">Login</a></li>
+                <li><a href="progresso.php">Progresso</a></li>
+                <li><a href="contato.php">Contato</a></li>
+                <li><a href="cadastro.php">Cadastro</a></li>                    
+                <li><a href="login.php">Login</a></li>
             </ul>
         </nav>
     </header>
@@ -40,8 +42,8 @@
                     rotina de uma maneira mais leve, <br>
                     mais <p class="nomeSerena2">Serena</p>
                 </p>
-                <a href="cadastro.html" class="botaoCadastro">Cadastrar</a>
-                <a href="login.html" class="botaoLogin">Login</a>
+                <a href="cadastro.php" class="botaoCadastro">Cadastrar</a>
+                <a href="login.php" class="botaoLogin">Login</a>
             </div>
 
             <div class="postit">
@@ -59,14 +61,14 @@
         <div class="navegacaoFooter">
             <h2>Navegação</h2>
             <div>
-                <a href="inicio.html">Inicio</a>
-                <a href="minharotina.html">Minha Rotina</a>
-                <a href="progresso.html">Progresso</a>
+                <a href="inicio.php">Inicio</a>
+                <a href="minharotina.php">Minha Rotina</a>
+                <a href="progresso.php">Progresso</a>
             </div>
             <div>
-                <a href="contato.html">Contato</a>
-                <a href="cadastro.html">Cadastro</a>
-                <a href="login.html">Login</a>
+                <a href="contato.php">Contato</a>
+                <a href="cadastro.php">Cadastro</a>
+                <a href="login.php">Login</a>
             </div>
         </div>
 

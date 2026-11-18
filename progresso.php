@@ -12,19 +12,19 @@
         <img src="./assets/img/logoSerena.svg" alt="Logo Serena" class="logoSerena">
         <nav>
             <ul class="menu">
-                <li><a href="inicio.html">Inicio</a></li>
-                <li class="menuRotina"><a href="minharotina.html">Minha Rotina</a>
+                <li><a href="inicio.php">Inicio</a></li>
+                <li class="menuRotina"><a href="minharotina.php">Minha Rotina</a>
                     <ul class="submenu">
-                        <li><a href="minharotina.html#calendario">Calendário</a></li>
-                        <li><a href="minharotina.html#tarefas">Tarefas</a></li>
-                        <li><a href="minharotina.html#habitos">Hábitos</a></li>
-                        <li><a href="minharotina.html#anotacoes">Anotações</a></li>
+                        <li><a href="minharotina.php#calendario">Calendário</a></li>
+                        <li><a href="minharotina.php#tarefas">Tarefas</a></li>
+                        <li><a href="minharotina.php#habitos">Hábitos</a></li>
+                        <li><a href="minharotina.php#anotacoes">Anotações</a></li>
                     </ul>
                 </li>
-                <li><a href="progresso.html">Progresso</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>                    
-                <li><a href="login.html">Login</a></li>
+                <li><a href="progresso.php">Progresso</a></li>
+                <li><a href="contato.php">Contato</a></li>
+                <li><a href="cadastro.php">Cadastro</a></li>                    
+                <li><a href="login.php">Login</a></li>
             </ul>
         </nav>
     </header>
@@ -173,14 +173,14 @@
         <div class="navegacaoFooter">
             <h2>Navegação</h2>
             <div>
-                <a href="inicio.html">Inicio</a>
-                <a href="minharotina.html">Minha Rotina</a>
-                <a href="progresso.html">Progresso</a>
+                <a href="inicio.php">Inicio</a>
+                <a href="minharotina.php">Minha Rotina</a>
+                <a href="progresso.php">Progresso</a>
             </div>
             <div>
-                <a href="contato.html">Contato</a>
-                <a href="cadastro.html">Cadastro</a>
-                <a href="login.html">Login</a>
+                <a href="contato.php">Contato</a>
+                <a href="cadastro.php">Cadastro</a>
+                <a href="login.php">Login</a>
             </div>
         </div>
 
